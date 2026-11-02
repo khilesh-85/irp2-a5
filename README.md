@@ -9,7 +9,7 @@ A collection of Python programs developed as part of the IRP-II assignment. This
 ## Student Information
 
 - **Name:** Khilesh Kishore
-- **Roll Number:** YOUR_ROLL_NUMBER
+- **Roll Number:** 2481197
 - **Assignment:** IRP-II Assignment 5
 - **Language:** Python 3
 - **Repository:** irp2-a5
@@ -36,8 +36,10 @@ irp2-a5/
 │   ├── p2_output.txt
 │   ├── p3_input.txt
 │   ├── p3_expected.txt
+│   ├── p3_output.txt
 │   ├── p4_input.txt
-│   └── p4_expected.txt
+│   ├── p4_expected.txt
+│   └── p4_output.txt
 │
 ├── README.md
 └── .gitignore
@@ -52,7 +54,7 @@ irp2-a5/
 | 1 | Reverse Words | String Manipulation |
 | 2 | Binary Search | Searching Algorithm |
 | 3 | Digit Sum | Recursion |
-| 4 | Pair Count | Array / Pair Processing |
+| 4 | Pair Count | Array Processing |
 
 ---
 
@@ -71,7 +73,7 @@ No external Python libraries are required.
 Clone the repository:
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/khilesh-85/irp2-a5.git
 ```
 
 Navigate to the project directory:
@@ -113,7 +115,7 @@ Test cases are stored in the `tests/` directory.
 Each problem includes:
 - `input.txt` – Sample input.
 - `expected.txt` – Expected output.
-- `output.txt` – Actual program output (where applicable).
+- `output.txt` – Actual program output.
 
 Example: Run the binary search test on Windows CMD:
 
@@ -127,7 +129,7 @@ Compare actual and expected output:
 fc tests/p2_expected.txt tests/p2_output.txt
 ```
 
-If the files match, the test passes.
+If both files match, the test passes.
 
 ---
 
@@ -157,5 +159,6 @@ This project follows Git version control practices:
 
 **Khilesh Kishore**
 
-IRP-II Assignment 5  
+IRP-II Assignment 5
+
 Python | Data Structures & Algorithms | Git & GitHub
